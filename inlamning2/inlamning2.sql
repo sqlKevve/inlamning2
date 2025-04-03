@@ -1,7 +1,7 @@
 -- Kevin Kosner YH24
 
-CREATE DATABASE Bokhandel;
-USE Bokhandel;
+CREATE DATABASE bokhandel;
+USE bokhandel;
 
 -- Skapar alla tabeller, varav Böcker, Kunder, Beställningar och Orderrader skapas
 
@@ -343,5 +343,5 @@ SELECT * FROM Kunder;
 SELECT * FROM Beställningar;
 SELECT * FROM Orderrader;
 
--- BACKUP: mysqldump -u root -p Bokhandel > bokhandel_backup.sql
--- LADDA IN BACKUP: mysql -u root -p Bokhandel < bokhandel_backup.sql
+-- BACKUP: mysqldump -u root -p bokhandel > bokhandel_backup.sql
+-- LADDA IN BACKUP: mysql -u root -p bokhandel < bokhandel_backup.sql
